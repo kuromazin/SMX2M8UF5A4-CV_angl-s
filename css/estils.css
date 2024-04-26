@@ -1,0 +1,57 @@
+.titulo {
+    color: #000000; /* Texto blanco */
+    padding: 20px;
+    text-align: center;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.textos1 {
+    color: #000000; /* Texto blanco */
+    padding: 20px;
+    text-align: justify;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-left: 55%;
+}
+.textos {
+    color: #000000; /* Texto blanco */
+    padding: 20px;
+    text-align: justify;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.textos2 {
+    color: #000000; /* Texto blanco */
+    padding: 20px;
+    text-align: justify;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-right: 55%;
+    display: flex;
+}
+.mapa {
+    padding-left: 60%;
+    display: flex;
+}
+
+
+footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    text-align: justify;
+}
+
+footer p, footer a {
+    margin: 5px;
+}
+
+footer img {
+    width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+
