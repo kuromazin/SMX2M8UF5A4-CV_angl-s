@@ -25,12 +25,37 @@
 .textos2 {
     color: #000000; /* Texto blanco */
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     font-family: "Lobster Two", sans-serif;
     font-weight: 200;
     font-style: normal;
-    padding-left: 55%;
     display: flex;
+}
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    text-align: justify;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+}
+.column2 {
+    flex: 1;
+    text-align: justify;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    padding-left: 30%;
+}
+.column3 {
+    flex: 1;
+    text-align: justify;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+}
+.column4 {
+    flex: 1;
 }
 
 .card2{
@@ -44,9 +69,27 @@
 .contenedor-flex2 {
     display: flex;
   }
+.contenedor-flex3 {
+    display: flex;
+    padding-left: 10%;
+  }
+.contenedor-flex4 {
+    display: flex;
+    padding-right: 15%;
+  }
 .imagenes{
     width: 25%;
 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }
 
 footer {
